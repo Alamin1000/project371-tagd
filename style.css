@@ -1,0 +1,551 @@
+/*-----------------------------------=========Main-Style-Sheet=========----------------------------------------*/
+
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-Thin.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-RomanItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-RomanItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-ThinItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-XThinItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-XThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-XThin.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-XThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-XXThin.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-XXThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-XXThinItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-XXThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-Black.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-BlackItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-BoldItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-Bold.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-Light.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-LightItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-Mediu.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-Mediu.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-MediumItalic.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NeueHaasDisplay-Roman.woff') format('woff'),
+      url('webfonts/NeueHaasDisplay-Roman.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+  --theme__color1: #fff;
+  --neueHaasGroteskDisplayPro: 'Neue Haas Grotesk Display Pro'
+}
+*,::before,::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--neueHaasGroteskDisplayPro);
+}
+a, a:active, a:focus, a:active, a:hover {
+  text-decoration:none !important;
+  color: inherit;
+}
+input{
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover,
+a:focus,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+select:active,
+textarea:focus,
+textarea:hover,
+button:focus {
+  outline: none;
+}
+::placeholder {
+  opacity: 1;
+}
+:focus::placeholder {
+  opacity: 0;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+  width: 100%;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+iframe {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: 700;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+p:last-child{
+  margin: 0;
+}
+.main-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 860px;
+  }
+}
+
+
+
+
+/* header */
+.header-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.header-section {
+
+}
+.header-section__inner {
+  padding: 30px 30px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+
+}
+.header-logo img {
+
+}
+.header-menu-button {
+  font-size: 18.5px;
+  font-weight: 900;
+}
+/* header-end */
+
+
+
+
+
+/* ---offcanvas-css--- */
+.offcanvas-open {
+  font-size: 22px;
+  transition: 0.3s;
+}
+.offcanvas-open:hover {
+  color: #97A3AE;
+}
+.offcanvas-close {
+  color: var(--theme__color1);
+  position: absolute;
+  transition: 0.3s;
+  right: 25px;
+  top: 25px;
+}
+.offcanvas-close:hover {
+  color: #97A3AE;
+}
+.offcanvas-menu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transform: translateX(-105%);
+  transition: 0.3s;
+}
+.offcanvas-menu.active {
+  transform: translate(0);
+}
+.offcanvas-menu .offmenu {
+  max-width: 250px;
+  min-width: 200px;
+  z-index: 5;
+  position: relative;
+  background: #d5dce2;
+  height: 100%;
+  padding: 50px 20px 40px;
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.offcanvas-menu .offmenu :-webkit-scrollbar {
+  display: none;
+}
+.offcanvas-menu ul li a {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: var(--theme__color1);
+  padding: 10px;
+}
+.dropdown-menu-custom ul {
+  background: #fff;
+  padding: 20px 0;
+}
+.dropdown-menu-custom ul li a {
+  color: #97A3AE;
+}
+.offcanvas-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.178);
+  z-index: 2;
+  transform: 0;
+  z-index: 900;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.offcanvas-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+/* ---offcanvas-css-end---*/
+
+/* --preloader-- */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #000;
+  border-top-color: #e2eefd;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+/* --preloader-end-- */
+
+
+/* ---hero-section--- */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.hero-tl-shape {
+	width: 183px;
+	top: -203px;
+	left: -49px;
+	position: absolute;
+  z-index: -1;
+}
+.hero-br-shape {
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  position: absolute;
+}
+.hero-section__inner {
+  min-height: 100vh;
+  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-logo {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.hero-logo img {
+  width: 424px;
+}
+
+
+.hero__b-edge__txts {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(50vw - 105px);
+}
+.hero__b-edge__txts .lt-box {
+  padding: 8px 5px 5px 34px;
+}
+.hero__b-edge__txts .lt-box h4 {
+  font-size: 18.8px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.hero__b-edge__txts .drk-box {
+  padding: 8px 5px 30px 34px;
+  background: #000;
+  color: #fff;
+}
+.hero__b-edge__txts .drk-box h4 {
+  font-size: 18.8px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+
+
+/* ---hero-section---end */
+
+
+/* ---section__item--- */
+.section__hd-title {
+  padding-top: 49px !important;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 860px;
+  padding: 0 12px;
+}
+.section__hd-title h2 {
+  font-size: 30px;
+  gap: 15px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+} 
+.section__hd-title h2 .number {
+  font-size: 26px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.bottom-navigation {
+  padding: 33px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.bottom-navigation-button {
+  gap: 14px;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+.bottom-navigation-button .txt {
+  
+}
+.bottom-navigation-button .chev {
+  width: 48px;
+}
+/* ---section__item---end */
+
+
+
+/* ---about-section--- */
+.about-section {
+  position: relative;
+  z-index: 2;
+}
+.about-bl-shape {
+  width: 165px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.about-br-shape {
+  width: 490px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.about-section__inner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-content {
+
+}
+.about-content h4 {
+  font-size: 21.2px;
+  margin-bottom: 45px;
+  letter-spacing: 0.3px;
+  font-weight: 900;
+}
+.about-content p {
+  font-size: 17.5px;
+  margin-bottom: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+/* ---about-section---end */
