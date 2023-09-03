@@ -1,27 +1,374 @@
 
 
-@media (max-width: 1399px) {
- 
+
+@media (max-width: 1699px) {
+    .header-logo {
+        width: 65px;
+    }
+    .header-menu-button {
+        font-size: 14.5px;
+    }
+    .header-section__inner {
+        padding: 20px 25px 20px;
+        min-height: 80px;
+    }
+    .offcanvas-header {
+        padding: 20px 25px 20px;
+        min-height: 80px;
+    }
+    .offcanvas-logo {
+        width: 65px;
+    }
+    .offcanvas-close {
+        font-size: 14.5px;
+    }
+    .mobile-menu li a .it-bars {
+        width: 65px;
+        margin-bottom: 9px;
+    }
+    .mobile-menu li a .txt h3 {
+        font-size: 28px;
+    }
+    .mobile-menu li a .txt h4 {
+        font-size: 23px;
+    }
+    .mobile-menu li a {
+        padding: 11px 5px;
+        gap: 10px;
+    }
+    .mobile-menu {
+        max-width: 750px;
+    }
+    .offcanvas-menu .offmenu {
+        padding: 0 0 80px;
+    }
+
+
+    .hero-tl-shape {
+        width: 120px;
+        top: -153px;
+        left: -39px;
+    }
+    .hero-logo img {
+        width: 300px;
+    }
+    .bottom-navigation-button {
+        gap: 9px;
+        font-size: 14px;
+    }
+    .bottom-navigation-button .chev {
+        width: 32px;
+    }
+    .hero__b-edge__txts .drk-box {
+        padding: 6px 5px 14px 18px;
+    }
+    .hero__b-edge__txts .drk-box h4 {
+        font-size: 13px;
+    }
+    .hero__b-edge__txts .lt-box {
+        padding: 6px 5px 5px 18px;
+    }
+    .hero__b-edge__txts .lt-box h4 {
+        font-size: 14px;
+    }
+    .hero-section__inner {
+        padding: 100px 0;
+    }
+    
+
+
+
+    .about-content h4 {
+        font-size: 15.6px;
+        margin-bottom: 25px;
+    }
+    .about-content p {
+        font-size: 14.2px;
+        margin-bottom: 10px;
+    }
+    .section__hd-title {
+        padding-top: 26px !important;
+        width: 650px;
+    }
+    .section__hd-title h2 {
+        font-size: 22px;
+        gap: 10px;
+    }
+    .section__hd-title h2 .number {
+        font-size: 19px;
+    }
+
+
+    .about-bl-shape {
+        width: 100px;
+    }
+    .about-br-shape {
+        width: 390px;
+    }
+    .offmenu-right-shape {
+        width: 85px;
+    }
+    .offmenu-br-shape {
+        width: 900px;
+        bottom: -10px;
+    }
+    .offmenu-bl-shape {
+        width: 180px;
+    }
+
+
+    .hero-br-shape {
+        width: 24px;
+    }
+
+
+    .milestone__single__title .it-bar {
+        width: 65px;
+        margin-top: 0px;
+    }
+    .milestone__single__title .txt h4 {
+        font-size: 23px;
+    }
+    .milestone__single__title {
+        font-size: 16px;
+        gap: 10px;
+        margin-bottom: 6px;
+    }
+    .sq-ul li {
+        font-size: 13.5px;
+        padding-left: 12px;
+    }
+    .sq-ul li::before {
+        height: 5px;
+        width: 5px;
+    }
+    .milestone__single {
+        margin-bottom: 30px;
+    }
+    .milestones-section__inner {
+        padding: 100px 0 100px;
+    }
+    .milestones-bl-shape {
+        width: 42px;
+    }
+    .milestones-br-shape {
+        width: 90px;
+    }
+    .roadmap-ml-shape {
+        width: 125px;
+    }
+    .roadmap-bl-shape {
+        width: 130px;
+    }
+    .roadmap-br-shape {
+        width: 240px;
+    }
+    .milestone__single__body__grp h3 {
+        font-size: 16px;
+    }
+    .milestone__single__body__grp {
+        margin-bottom: 15px;
+    }
+    .milestone__single__float-at-left {
+        width: 189px;
+    }
+    .milestones--roadmap-content {
+        left: 84px;
+    }
+
+
+    .team-content {
+        --ex-width: 60px;
+    }
+    .team-members-row {
+        --bs-gutter-x: 40px;
+        --bs-gutter-y: 44px;
+    }
+    .team-member__content h4 {
+        font-size: 13.5px;
+    }
+    .team-member__content p {
+        font-size: 13.5px;
+    }
+    .team-section__inner {
+        padding: 80px 0 90px;
+    }
+    .team-bl-shape {
+        width: 75px;
+    }
+    .team-br-shape {
+        width: 23px;
+    }
+
 }
 
+@media (max-width: 1399px) {
+    
+}
 
 @media (max-width: 1199px) {
- 
+    .offmenu-bl-shape {
+        display: none;
+    }
+
+
+    .hero-section .bottom-navigation {
+        padding-bottom: 145px !important;
+    }
+    .hero__b-edge__txts {
+        width: 100%;
+    }
+    .hero-section__inner {
+        padding: 60px 0 100px;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .about-bl-shape {
+        width: 40px;
+    }
+    .about-br-shape {
+        width: 230px;
+    }
+
+
+    .hero-tl-shape {
+        width: 80px;
+        top: -120px;
+        left: -26px;
+    }
+    .hero-br-shape {
+        width: 18px;
+    }
+
+
+    .section__hd-title {
+        padding-top: 90px !important;
+    }
+    .about-section__inner {
+        padding: 140px 0 150px;
+    }
+    .bottom-navigation {
+        padding: 30px 0 70px;
+    }
+
+
+    .offmenu-br-shape {
+        right: unset;
+        left: 0;
+    }
+    .mobile-menu li {
+        width: 100%;
+    }
+    .mobile-menu {
+        margin-left: 20px;
+        align-content: unset;
+    }
+
+
+    .milestones-section .bottom-navigation {
+        padding-bottom: 40px;
+    }
+    .milestones-section__inner {
+        padding: 150px 0 85px;
+    }
+    .sq-ul li {
+        white-space: normal;
+    }
+
+
+    .milestone__single__float-at-left {
+        width: unset;
+        position: static;
+    }
+    .milestones--roadmap-content {
+        left: 0;
+    }
+    .roadmap-ml-shape {
+        width: 50px;
+    }
+    .roadmap-br-shape {
+        width: 140px;
+    }
+    .roadmap-bl-shape {
+        width: 60px;
+    }
+
+
+    .team-section .bottom-navigation {
+        padding-bottom: 40px;
+    }
+    .team-section__inner {
+        padding: 160px 0 120px;
+    }
+    .team-content {
+        --ex-width: 0;
+    }
+    
 }
 
 
 @media (max-width: 768px) {
- 
+    .section__hd-title {
+        width: 540px;
+    }
+
+    .milestones-bl-shape {
+        width: 15px;
+    }
+    .milestones-br-shape {
+        width: 25px;
+    }
+
+
+    .roadmap-ml-shape {
+        width: 80px;
+        top: 130px;
+        left: unset;
+        right: 0;
+        transform: rotate(180deg);
+    }
+    .roadmap-br-shape {
+        width: 100px;
+        bottom: 50px;
+    }
+
+
+    .team-members-row {
+        --bs-gutter-x: 15px;
+        --bs-gutter-y: 20px;
+    }
+    .team-bl-shape {
+        width: 30px;
+    }
+    .team-br-shape {
+        width: 9px;
+    }
 }
 
 
 @media (max-width: 575px) {
- 
+    .section__hd-title {
+        width: 100%;
+    }
+    .header-section__inner {
+        padding: 20px 15px 20px;
+    }
+
+
+    .offmenu-right-shape {
+        width: 35px;
+    }
+
+    .hero-logo img {
+        width: 250px;
+    }
+    .hero-tl-shape {
+        width: 55px;
+        top: -110px;
+        left: -23px;
+    }
 }
 
 

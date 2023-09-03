@@ -1,4 +1,7 @@
 /* small-tools */
+.white-space-wrap {
+    white-space: normal !important;
+}
 .underline {
     text-decoration: underline !important;
 }
