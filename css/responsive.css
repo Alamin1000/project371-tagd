@@ -200,6 +200,72 @@
         width: 23px;
     }
 
+
+    .partners-content__top-bar {
+        width: 530px;
+        margin-bottom: 15px;
+    }
+    .partners-content__g .image {
+        width: 100px;
+    }
+    .partners-content__g .content h4 {
+        font-size: 13px;
+    }
+    .partners-content__g {
+        gap: 14px;
+        margin-bottom: 6px;
+    }
+    .partners-content__g--2 {
+        margin-left: 185px;
+    }
+    .partners-content__g .content {
+        width: 240px;
+        max-width: 100%;
+    }
+    .partners-section__inner {
+        padding: 74px 0 107px;
+    }
+    .partners-bl-shape {
+        width: 75px;
+    }
+    .partners-mr-shape {
+        width: 80px;
+    }
+    .partners-br-shape {
+        width: 440px;
+    }
+
+
+    .input-x {
+        border-width: 2px;
+    }
+    .single-input-x {
+        margin-bottom: 15px;
+    }
+    .input-x-submit {
+        font-size: 17px;
+        padding: 17px 15px 17px 10px;
+        gap: 18px;
+    }
+    .demo-bl-shape {
+        width: 60px;
+    }
+    .demo-br-shape {
+        width: 190px;
+    }
+    .demo-tr-shape {
+        width: 190px;
+        top: 135px;
+    }
+    .demo-section__inner {
+        padding: 90px 0 40px;
+    }
+    .demo-form {
+        width: 400px;
+    }
+    .demo-form__shape {
+        width: 160px;
+    }
 }
 
 @media (max-width: 1399px) {
@@ -306,6 +372,28 @@
         --ex-width: 0;
     }
     
+
+    .partners-section__inner {
+        padding: 149px 0 140px;
+    }
+    .partners-section .bottom-navigation {
+        /* padding-bottom: 37px; */
+    }
+
+
+    .demo-section__inner {
+        padding: 150px 0 100px;
+    }
+    .demo-bl-shape {
+        width: 37px;
+    }
+    .demo-br-shape {
+        width: 70px;
+    }
+    .demo-tr-shape {
+        width: 120px;
+        top: 141px;
+    }
 }
 
 
@@ -345,6 +433,23 @@
     .team-br-shape {
         width: 9px;
     }
+
+
+    .partners-bl-shape {
+        width: 42px;
+    }
+    .partners-br-shape {
+        width: 280px;
+    }
+    .partners-mr-shape {
+        width: 40px;
+        top: 105px;
+        transform: none;
+    }
+    .partners-content__g--2 {
+        margin-left: 40px;
+    }
+
 }
 
 
@@ -373,5 +478,7 @@
 
 
 @media (max-width: 390px) {
- 
+    .partners-content__g--2 {
+        margin-left: 0px;
+    }
 }
