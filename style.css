@@ -345,7 +345,7 @@ p:last-child{
   width: 100%;
   z-index: 5;
   position: relative;
-  background: #fff;
+  background: linear-gradient(#ECF5F4, #EDEFF0);
   height: 100%;
   padding: 0 0 110px;
   overflow: auto;
@@ -482,6 +482,7 @@ p:last-child{
   position: relative;
   overflow: hidden;
   z-index: 2;
+  background: linear-gradient(#EDEFF0, #ECF5F4);
 }
 .hero-tl-shape {
 	width: 183px;
@@ -597,6 +598,7 @@ p:last-child{
 .about-section {
   position: relative;
   z-index: 2;
+  background: linear-gradient(#EDEFF0, #ECF5F4);
 }
 .about-bl-shape {
   width: 165px;
@@ -833,6 +835,7 @@ p:last-child{
   position: relative;
   overflow: hidden;
   z-index: 2;
+  background: linear-gradient(#EDEFF0, #ECF5F4);
 }
 .partners-bl-shape {
   width: 137px;
@@ -907,6 +910,7 @@ p:last-child{
   position: relative;
   overflow: hidden;
   z-index: 2;
+  background: #F7F7F8;
 }
 .demo-bl-shape {
   width: 105px;
