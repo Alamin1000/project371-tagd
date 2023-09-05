@@ -1,6 +1,5 @@
 /*-----------------------------------=========Main-Style-Sheet=========----------------------------------------*/
 
-
 @font-face {
   font-family: 'Neue Haas Grotesk Display Pro';
   src: url('webfonts/NeueHaasDisplay-Thin.woff') format('woff'),
@@ -122,7 +121,7 @@
   font-family: 'Neue Haas Grotesk Display Pro';
   src: url('webfonts/NeueHaasDisplay-Mediu.woff') format('woff'),
       url('webfonts/NeueHaasDisplay-Mediu.ttf') format('truetype');
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -140,6 +139,18 @@
   font-family: 'Neue Haas Grotesk Display Pro';
   src: url('webfonts/NeueHaasDisplay-Roman.woff') format('woff'),
       url('webfonts/NeueHaasDisplay-Roman.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  /* font-family: 'NHaasGroteskDSPro-65Md'; */
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('webfonts/NHaasGroteskDSPro-65Md.woff') format('woff'),
+      url('webfonts/NHaasGroteskDSPro-65Md.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -644,9 +655,10 @@ p:last-child{
   font-size: 28px;
 }
 .about-content p {
-  font-size: 25px;
+  font-size: 24px;
   margin-bottom: 27px;
   padding-right: 20px;
+  font-weight: 500;
 }
 /* ---about-section---end */
 
@@ -837,7 +849,7 @@ p:last-child{
   margin-bottom: 1px;
 }
 .team-member__content p {
-  font-size: 20px;
+	font-size: 19.1px;
 }
 
 .team-section .bottom-navigation {
@@ -915,9 +927,9 @@ p:last-child{
   width: 405px;
 }
 .partners-content__g .content h4 {
-  font-size: 22px;
-  line-height: 1.2;
-  font-weight: 500;
+	font-size: 21px;
+	line-height: 1.2;
+	font-weight: 500;
 }
 
 .partners-section .bottom-navigation {
