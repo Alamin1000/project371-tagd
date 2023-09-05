@@ -1,7 +1,295 @@
+@media (max-width: 1799px) {
+    .hero__b-edge__txts .drk-box h4 {
+        font-size: 22px;
+    }
+    .hero__b-edge__txts .lt-box h4 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1599px) {
+    .header-logo {
+        width: 93px;
+    }
+    .header-menu-button {
+        font-size: 18.5px;
+    }
+    .header-section__inner {
+        padding: 35px 30px 35px;
+        min-height: 127px;
+    }
 
 
 
-@media (max-width: 1699px) {
+    .offmenu-right-shape {
+        width: 199px;
+    }
+    .offmenu-bl-shape {
+        width: 240px;
+    }
+    .offmenu-br-shape {
+        width: 1132px;
+        bottom: -11px;
+    }
+    .offcanvas-logo {
+        width: 93px;
+    }
+    .offcanvas-close {
+        font-size: 18.5px;
+    }
+    .offcanvas-header {
+        padding: 35px 30px 35px;
+        min-height: 127px;
+    }
+    .mobile-menu li a .it-bars {
+        width: 95px;
+        margin-bottom: 12px;
+    }
+    .mobile-menu li a .txt h4 {
+        font-size: 34px;
+    }
+    .mobile-menu li a .txt h3 {
+        font-size: 37.5px;
+    }
+    .mobile-menu li a {
+        padding: 22px 10px;
+        gap: 17px;
+    }
+    .mobile-menu {
+        max-width: 1000px;
+    }
+
+
+
+
+    .section__hd-title {
+        padding-top: 49px !important;
+        width: 860px;
+    }
+    .hero-br-shape {
+        width: 30px;
+    }
+    .hero-logo img {
+        width: 424px;
+    }
+    .hero__b-edge__txts {
+        width: calc(50vw - 105px);
+    }
+    .hero__b-edge__txts .lt-box h4 {
+        font-size: 18px;
+    }
+    .hero__b-edge__txts .drk-box h4 {
+        font-size: 18px;
+    }
+    .hero__b-edge__txts .lt-box {
+        padding: 8px 5px 5px 34px;
+      }
+    .hero__b-edge__txts .drk-box {
+        padding: 8px 5px 30px 34px;
+    }
+
+    .bottom-navigation-button {
+        gap: 14px;
+        font-size: 19px;
+    }
+    .bottom-navigation-button .chev {
+        width: 48px;
+    }
+    .bottom-navigation {
+        padding: 33px 0;
+    }
+    .hero-section .bottom-navigation {
+        transform: translate(-90px, 0);
+    }
+    .hero-tl-shape {
+        width: 135px;
+    }
+    .hero-br-shape {
+        width: 25px;
+    }
+
+
+    .about-section__inner {
+        padding: 115px 0 112px;
+    }
+    .about-bl-shape {
+        width: 140px;
+    }
+    .about-br-shape {
+        width: 490px;
+    }
+    .about-content h4 {
+        font-size: 21.2px;
+        margin-bottom: 45px;
+        letter-spacing: 0.3px;
+    }
+    .about--token-content h4 {
+        font-size: 20.2px;
+    }
+    .about-content p {
+        font-size: 17.5px;
+        margin-bottom: 18px;
+        padding-right: 0px;
+    }
+    .about-token-bar {
+        margin-bottom: 23px;
+    }
+
+
+    .milestones-bl-shape {
+        width: 46px;
+    }
+    .milestones-br-shape {
+        width: 105px;
+    }
+    .milestone__single__title .txt h4 {
+        font-size: 34px;
+    }
+    .sq-ul li {
+        font-size: 17px;
+        padding-left: 15px;
+    }
+    .milestone__single__title {
+        gap: 14px;
+        margin-bottom: 8px;
+    }
+    .sq-ul {
+        gap: 3px;
+    }
+    .milestones-section__inner {
+        padding: 130px 0 100px;
+    }
+    .milestone__single__body__grp h3 {
+        font-size: 24px;
+    }
+    .milestone__single__float-at-left {
+        width: 265px;
+    }
+    .milestones--roadmap-content .milestone__single__title {
+        padding-bottom: 6px;
+    }
+    .roadmap-ml-shape {
+        width: 205px;
+    }
+    .roadmap-bl-shape {
+        width: 223px;
+    }
+    .roadmap-br-shape {
+        width: 386px;
+    }
+
+    .team-content {
+        --ex-width: 85px;
+    }
+    .team-members-row {
+        --bs-gutter-x: 50px;
+        --bs-gutter-y: 60px;
+    }
+    .team-member__content {
+        padding: 6px 0 0;
+    }
+    .team-member__content h4 {
+        font-size: 16.5px;
+        margin-bottom: 1px;
+    }
+    .team-member__content p {
+        font-size: 16.5px;
+    }
+    .team-section__inner {
+        padding: 130px 0 120px;
+    }
+    .team-section .bottom-navigation {
+        transform: translate(300px, 0);
+    }
+    .team-bl-shape {
+        width: 121px;
+    }
+    .team-br-shape {
+        width: 48px;
+        margin-bottom: -100px;
+    }
+
+    .partners-bl-shape {
+        width: 137px;
+      }
+      .partners-br-shape {
+        width: 680px;
+      }
+      .partners-mr-shape {
+        width: 155px;
+      }
+      .partners-section__inner {
+        padding: 120px 0;
+    }
+    .partners-content__top-bar {
+        width: 733px;
+        margin-bottom: 38px;
+      }
+      .partners-content__g .image {
+        width: 150px;
+      }
+      .partners-content__g .content {
+        width: 300px;
+      }
+      .partners-content__g .content h4 {
+        font-size: 16.2px;
+      }
+      .partners-content__g--2 {
+        margin-left: 245px;
+      }
+      .partners-content__g {
+        gap: 22px;
+        margin-bottom: 8px;
+      }
+      .partners-section .bottom-navigation {
+        transform: translate(200px, 0);
+        margin-bottom: 20px;
+      }
+
+
+      .input-x {
+        font-size: 16px;
+        padding: 4px 13px;
+        border-width: 3px;
+      }
+      .label-x {
+        font-size: 16.5px;
+        margin-bottom: 6px;
+      }
+      .single-input-x {
+        margin-bottom: 23px;
+      }
+      .demo-form {
+        width: 460px;
+      }
+      .demo-section__inner {
+        padding: 155px 0 65px;
+      }
+      .demo-bl-shape {
+        width: 105px;
+      }
+      .demo-br-shape {
+        width: 312px;
+      }
+      .demo-tr-shape {
+        width: 312px;
+        top : 155px;
+      }
+
+}
+
+
+@media (max-width: 1399px) {
+    .hero__b-edge__txts .drk-box h4 {
+        font-size: 15px;
+    }
+    .hero__b-edge__txts .lt-box h4 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1199px) {
     .header-logo {
         width: 65px;
     }
@@ -266,6 +554,19 @@
     .demo-form__shape {
         width: 160px;
     }
+
+    .team-section .bottom-navigation {
+        transform: translate(230px, 0);
+    }
+
+    .partners-section .bottom-navigation {
+        transform: translate(100px, 0);
+        margin-bottom: 20px;
+    }
+
+    .hero-section .bottom-navigation {
+        transform: translate(-50px, 0);
+    }
 }
 
 @media (max-width: 1399px) {
@@ -393,6 +694,14 @@
     .demo-tr-shape {
         width: 120px;
         top: 141px;
+    }
+
+    .team-section .bottom-navigation {
+        transform: translate(-50%, 0);
+    }
+    .partners-section .bottom-navigation {
+        transform: translate(-50%, 0);
+        margin-bottom: 0px;
     }
 }
 
