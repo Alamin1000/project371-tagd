@@ -643,10 +643,10 @@ p:last-child{
 
 }
 .about-content h4 {
-  font-size: 29px;
-  margin-bottom: 62px;
-  letter-spacing: 0px;
-  font-weight: 900;
+	font-size: 29px;
+	margin-bottom: 40px;
+	letter-spacing: 0px;
+	font-weight: 900;
 }
 .about-token-bar {
   margin-bottom: 30px;
