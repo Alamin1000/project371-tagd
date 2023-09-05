@@ -244,12 +244,12 @@ p:last-child{
     max-width: 650px;
   }
 }
-@media (max-width: 1599px) and (min-width: 1200px) {
+@media (max-width: 1549px) and (min-width: 1200px) {
   .container {
     max-width: 860px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1150px) {
   .container {
     width: 1147px;
   }
